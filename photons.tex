@@ -1,5 +1,4 @@
 \documentclass{birkjour}
-\usepackage{indentfirst}
 
 \begin{document}
 
@@ -33,13 +32,13 @@ USA}
 
 Geometric algebra endows spinors with a simple geometric interpretation, as rotation and dilation operators. While spinors are most frequently used to describe spin-$\frac{1}{2}$ particles, it is a straightforward task to use them to describe the simplest of spin-1 particles: the photon.
 
-Photons are massless, spin-1 particles whose energy $E = \hbar \omega$ and momentum $\vec p = \hbar \vec k$ are equal in magnitude and determined by the angular frequency $\omega$ and wave vector $\vec k$, which describe the rate of rotation of circularly polarized electromagnetic fields within the spin plane $i$ perpendicular to its momentum.
+Photons are massless, spin-1 particles whose energy $E = \hbar \omega$ and momentum $\vec p = \hbar \vec k$ are equal in magnitude and determined by the angular frequency $\omega$ and wave vector $\vec k$, which describe the kinematics of circularly polarized electromagnetic waves.
 
-The currents of spinor-valued solutions to the second-order wave equation are shown to satisfy the homogeneous Maxwell equations and identified with the electric and magnetic fields of a photon. The familiar energy and momentum operators $i \hbar \partial_t$ and $-i \hbar \vec \nabla$ are presented and consolidated into the odd-valued operator $\nabla = e^\mu \partial_\mu$, with which we introduce the first-order spinor wave equation $\nabla \psi = p s \psi.$ We conclude with comments and questions about this equation and the connection between spinors and the spin of particles.
+Here we show that the currents of spinor-valued solutions to the second-order wave equation satisfy the homogeneous Maxwell equations and are identified with the electric and magnetic fields of a photon. The familiar energy and momentum operators $i \hbar \partial_t$ and $-i \hbar \vec \nabla$ are presented and consolidated into the odd-valued operator $\nabla = e^\mu \partial_\mu$, with which we introduce the first-order spinor wave equation $\nabla \psi = p s \psi.$ We conclude with comments and questions about this equation and the connection between spinors and the spin of particles.
 
 \section{Spacetime in $G_3$}
 
-Throughout this paper, we work with the orthonormal basis $\{e_1, e_2, e_3\}$ for the 3-dimensional geometric algebra $G_3$, and use the notation 
+Throughout this paper, we work with the orthonormal basis $\{e_1, e_2, e_3\}$ and use the notation 
 
 \begin{align}
   e_{\mu \nu ... \gamma} &:= e_\mu e_\nu ... e_\gamma\\
@@ -47,9 +46,9 @@ Throughout this paper, we work with the orthonormal basis $\{e_1, e_2, e_3\}$ fo
   e^\mu &:= e_\mu^{-1} 
 \end{align}
 
-for $\mu, \nu, \gamma = 0,1,2,3$.
+for $\mu, \nu, \gamma = 0,1,2,3$. 
 
-Odd valued multivectors take the place of four-vectors, and the scalar product is used as their inner product. We let $x, k, \nabla \in G_3^-$ be odd valued, where
+Odd valued multivectors in $G_3$ take the place of four-vectors in Minkowski space, and the scalar product is used as their inner product. We let $x, k, \nabla \in G_3^-$ be odd valued, where
 
 \begin{align}
   x &:= e_\mu x_\mu = t e_0 + \vec x \\
@@ -164,10 +163,10 @@ The spin and energy-momentum of photons are tightly intertwined quantities. For 
 
 \section{A Note on the Dirac Equation}
 
-It is worthwhile to briefly point to some similarities and differences between this equation and the Dirac equation, written in Hestenes's spacetime algebra,
+It is worthwhile to briefly point to some similarities and differences between this equation and the Dirac equation, written in Hestenes's spacetime algebra,\cite{hestenes}
 
 \begin{equation}
-  \nabla \psi i \sigma_3 = m \psi \gamma_0. \text{\cite{hestenes}}
+  \nabla \psi i \sigma_3 = m \psi \gamma_0.
 \end{equation}
 
 A key similarity is that they can both be well described as first-order, eigenvalue equations of energy-momentum operators. Two key differences are (1) the difference in dimensionality of the algebra in which the spinors live, which may place kinematical limitations on Equation \ref{eq:mod} and (2) the eigenvalue in Equation \ref{eq:mod} is spinor-valued, whereas the eigenvalue in the Dirac equation is scalar valued, which may place a limitation on the Dirac equation.
